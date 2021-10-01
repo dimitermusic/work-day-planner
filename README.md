@@ -16,5 +16,9 @@
 * User input not saving to local storage or showing up on refresh
 * Fix JQUERY event listener issue
 
+## Links
+[Repository](https://github.com/dimitermusic/work-day-planner.html)
+[Deployed Site](https://dimitermusic.github.io/work-day-planner.html/)
+
 - - -
 © 2021 Dimiter Yordanov. All Rights Reserved.
