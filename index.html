@@ -19,20 +19,86 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Work Day Planner</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Work Day Planner</h1>
+      <p class="lead">Plan your work day with ease!</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">      
+    <div class="container mb-3">
+
+      <!-- Timeblocks go here -->
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>9am</div>
+          <input type="text" class="description col-10" name="9">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>10am</div>
+          <input type="text" class="description col-10" name="10">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>11am</div>
+          <input type="text" class="description col-10" name="11">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>12pm</div>
+          <input type="text" class="description col-10" name="12">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>1pm</div>
+          <input type="text" class="description col-10" name="13">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>2pm</div>
+          <input type="text" class="description col-10" name="14">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>3pm</div>
+          <input type="text" class="description col-10" name="15">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>4pm</div>
+          <input type="text" class="description col-10" name="16">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+      <div class="time-block">
+        <div class="row">
+          <div class="hour col-1"><br>5pm</div>
+          <input type="text" class="description col-10" name="17">
+          <button class="saveBtn col-1">💾</button>
+        </div>
+      </div>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
