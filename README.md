@@ -1,24 +1,42 @@
-# Work Day Scheduler
+# Work Day Planner [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+rsrs
+## Description
+This app was designed to help you plan your day.
 
-## Steps
+## Table of Contents
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
 
-* TODO: Use moment.js and jquery to pull todays date and add it to the html container with the .container class.
-* TODO: Create a time block as input/form element with placeholders and button for each hour of the work day from 9am to 5pm using 24hr time and moment.format to make sort in ascending way then append using jquery.
-* TODO: Add conditional statement to compare the current time to the calendar blocks and add css classes to style to depict the past, present, and future in relation to right now. CHECK
-* TODO: Store user input into variable
-* TODO: Add event listener to listen for a click of a button using the "this" method or event.target to grab the specific block associated with the button that is clicked to store input into a variable, add user input as content, then use "setitems" method to store to local storage. Then update placeholder with new user input using get items and jquery.
-* TODO: Add "getitems" function to retrieve items saved to local storage and put them on page on page load in the input field as placeholder.
+## Installation
+Just visit the deployed site [here!](https://dimitermusic.github.io/work-day-planner.html/)
 
-## Issues to be resolved:
+## Usage
+Time field will be red if past, green if future, and grey if current:
+![Work Day Planner 1](./assets/work-day.png)  
+You are able to store your input by submiting with the save button!
+![Save your plans](./assets/work-day-2.png)
 
-* Fix CSS disconnect issue
-* For loop is broken
-* User input not saving to local storage or showing up on refresh
-* Fix JQUERY event listener issue
+## Contributing
+You are welcome to contribute as you wish! Also, feedback is always welcome!
 
-## Links
+## License
+This application is covered under the MIT License
+
+## Questions
+If you have any questions, please visit my Github profile or email me using the links below
+
+[Deployed Site](https://dimitermusic.github.io/work-day-planner.html/)  
 [Repository](https://github.com/dimitermusic/work-day-planner.html)
-[Deployed Site](https://dimitermusic.github.io/work-day-planner.html/)
 
-- - -
-© 2021 Dimiter Yordanov. All Rights Reserved.
+
+## Questions
+If you have any questions, please visit my Github profile or email me using the links below
+
+[Github](https://github.com/dimitermusic)  
+[Email](mailto:dimitermusic@gmail.com)  
+
