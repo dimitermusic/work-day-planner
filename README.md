@@ -13,7 +13,7 @@ This app was designed to help you plan your day.
   - [Questions](#questions)
 
 ## Installation
-Just visit the deployed site [here!](https://dimitermusic.github.io/work-day-planner.html/)
+Just visit the deployed site [here!](https://dimitermusic.github.io/work-day-planner)
 
 ## Usage
 Time field will be red if past, green if future, and grey if current:
@@ -30,8 +30,8 @@ This application is covered under the MIT License
 ## Questions
 If you have any questions, please visit my Github profile or email me using the links below
 
-[Deployed Site](https://dimitermusic.github.io/work-day-planner.html/)  
-[Repository](https://github.com/dimitermusic/work-day-planner.html)
+[Deployed Site](https://dimitermusic.github.io/work-day-planner)  
+[Repository](https://github.com/dimitermusic/work-day-planner)
 
 
 ## Questions
